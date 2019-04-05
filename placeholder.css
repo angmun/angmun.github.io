@@ -1,0 +1,17 @@
+.placeholder-text{
+  font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif; 
+  font-size: 25px; 
+  font-style: italic; 
+  font-variant: small-caps; 
+  font-weight: 700; 
+  line-height: 25px; 
+  color: #20B2AA;
+  box-sizing:border-box;
+  padding: 30px;
+  border: 0px;
+  margin: 0px;
+  box-shadow: 2px 2px 4px #7FFFD4;
+  position:fixed;
+  width: 50vw;
+  overflow: auto;
+}

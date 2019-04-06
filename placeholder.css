@@ -5,19 +5,16 @@
   font-variant: small-caps; 
   font-weight: 700; 
   line-height: 25px; 
+  text-align: center;
   color: #20B2AA;
   box-sizing:border-box;
   padding: 30px;
   border: 0px;
   margin: 0px;
+  position: fixed;
+  transform: translate(-50%, -50%);
   box-shadow: 2px 2px 4px #7FFFD4;
   width: 50vw;
   overflow: auto;
 }
 
-main{
-  position:fixed;
-  overflow:auto;
-  display:flex;
-  margin:auto;
-}

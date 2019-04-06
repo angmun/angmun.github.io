@@ -1,4 +1,5 @@
 .placeholder-text{
+  /*Text appearance*/
   font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif; 
   font-size: 25px; 
   font-style: italic; 
@@ -7,14 +8,18 @@
   line-height: 25px; 
   text-align: center;
   color: #20B2AA;
+  
+  /*Container styling and positioning*/
   box-sizing: border-box;
   padding: 30px;
   border: 0px;
   margin: 0px;
-  position: fixed;
   box-shadow: 2px 2px 4px #7FFFD4;
   width: 50vw;
   overflow: auto;
+  background-color: #008080;
+  
+  position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);

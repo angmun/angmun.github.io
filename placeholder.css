@@ -11,12 +11,12 @@
   border: 0px;
   margin: 0px;
   box-shadow: 2px 2px 4px #7FFFD4;
-  position:fixed;
   width: 50vw;
   overflow: auto;
 }
 
 main{
+  position:fixed;
   overflow:auto;
   display:flex;
   margin:auto;

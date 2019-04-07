@@ -17,7 +17,6 @@
   box-shadow: 2px 2px 4px #7FFFD4;
   width: 50vw;
   overflow: auto;
-  background-color: #008080;
   
   position: fixed;
   top: 50%;
@@ -25,3 +24,7 @@
   transform: translate(-50%, -50%);
 }
 
+body{
+  /*Background*/
+  background-color: #008080;
+}

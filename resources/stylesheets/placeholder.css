@@ -25,14 +25,24 @@
 
   display: block;
   background-color: #8effee;
+
+  /*Continer animation*/
+  animation: sway 10s ease-in infinite alternate forwards;
+}
+
+/*Animation definition*/
+@keyframes sway {
+  
 }
 
 .web-logo{
+  /*Container styling*/
   padding: 20px;
   box-sizing: border-box;
 }
+
 body{
-  /*Background*/
+  /*Container sizing*/
   width: 100vw;
   height: 100vh;
 }

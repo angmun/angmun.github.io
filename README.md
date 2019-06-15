@@ -10,7 +10,5 @@
  > Perhaps an inquiry into this:
  >
  > What in heavens is this README?
- >
- > And why does it not even rhyme?
  > 
  > -Angelica Kamene Munyao

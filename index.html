@@ -2,17 +2,28 @@
 <html lang="en">
   <head>
     <!--Base URL for relative URL addresses-->
-    <base href="https://angmun.github.io/">
+    <!--base href="https://angmun.github.io/"-->
 
     <!--Webpage Metadata-->
     <meta charset="UTF-8">
-    <meta name="description" content="Angelica Munyao's personal website.">
+    <meta name="author" content="Angelica Kamene Munyao">
+    <meta name="description" content="Angelica Kamene Munyao's personal web playground.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" href="resources/media/MyIconICO.png">
+
+    <!--Favicons for various browsers-->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="resources/media/favicons/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="resources/media/favicons/apple-touch-icon-152x152.png" />
+    <link rel="icon" type="image/png" href="resources/media/favicons/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="resources/media/favicons/favicon-16x16.png" sizes="16x16" />
+    <meta name="application-name" content='AK"K"M'/>
+    <meta name="msapplication-TileColor" content="#FFFFFF" />
+    <meta name="msapplication-TileImage" content="resources/media/favicons/mstile-144x144.png" />
+
     <title>A K"K"M</title>
 
     <!--External CSS files-->
     <link type="text/css" rel="stylesheet" href="resources/stylesheets/placeholder.css">
+    <link type="text/css" rel="stylesheet" href="resources/stylesheets/general_features.css">
 
     <!--Bootstrap 3-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
@@ -24,17 +35,37 @@
   </head>
 
   <body>
-    <header>
+    <!--Contact information-->
+    <header class="contact-info">
+        <a href=""><img class="tiny-icons" src="resources/media/icons/baseline-email-24px.svg" alt="Email icon"></a>
+        <a href=""><img class="tiny-icons" src="resources/media/icons/linkedin-logo-1.svg" alt="LinkedIn icon"></a>
     </header>
 
-    <main>
+    <!--Main navigation-->
+    <nav class="side-top-burger">
+      <div class="site-logo"><a href="/"><img src="resources/media/MyIcon.svg" alt='AK"K"M Webite Logo' class="logo-image"></a></div>
+      <div class="main-menu"></div>
+    </nav>
+
+    <!--Webpage content-->
+    <main class="content-container">
+      <!--Placeholder content-->
       <div class="placeholder-text">
-        <img class="web-logo" src="MyIconLOGO.png">
+        <img class="web-logo" src="resources/media/MyIconLOGO.png">
         AK"K"M coming your way soon...
       </div>
     </main>
 
-    <footer>
+    <!--Contact information, secondary navigation and site map-->
+    <footer class="site-footer">
+      <!--Secondary navigation-->
+      <div class="footer-menu"></div>
+
+      <!--Website name, credit and favicon credit-->
+      <div class="footer-credit">
+        <div class="site-credit"></div>
+        <div class="icon-credit">Icons made by <a href="https://www.flaticon.com/authors/simpleicon" title="SimpleIcon">SimpleIcon</a> from <a href="https://www.flaticon.com/" 		    title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+    </div>
     </footer>
   </body>
 </html>

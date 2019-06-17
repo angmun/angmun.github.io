@@ -10,5 +10,5 @@
  > Perhaps an inquiry into this:
  >
  > What in heavens is this README?
- >
+ > 
  > -Angelica Kamene Munyao

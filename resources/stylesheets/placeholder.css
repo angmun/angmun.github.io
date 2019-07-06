@@ -8,7 +8,6 @@
   line-height: 1em;
   text-align: center;
   color: #1d33af;
-
   /*Container styling and positioning*/
   box-sizing: border-box;
   padding: 30px;
@@ -17,32 +16,27 @@
   box-shadow: 2px 2px 4px #246782;
   width: 300px;
   overflow: auto;
-
   position: absolute;
   top: 50%;
   left: 50%;
+  z-index: 1;
   transform: translate(-50%, -50%);
-
   display: block;
   background-color: #8effee;
-
   /*Continer animation*/
-  animation: sway 10s ease-in infinite alternate forwards;
+  animation: sway 5s ease-out 0s 1;
 }
-
 /*Animation definition*/
 @keyframes sway {
-  
+  from{
+    left:-50%
+  }
+  to{
+    left:50%
+  }
 }
-
 .web-logo{
   /*Container styling*/
   padding: 20px;
   box-sizing: border-box;
-}
-
-body{
-  /*Container sizing*/
-  width: 100vw;
-  height: 100vh;
 }

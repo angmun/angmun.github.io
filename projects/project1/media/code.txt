@@ -1,0 +1,7 @@
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://people.rit.edu/~am5318/645/project1/apple-touch-icon-144x144.png" />
+<link rel="apple-touch-icon-precomposed" sizes="152x152" href="https://people.rit.edu/~am5318/645/project1/apple-touch-icon-152x152.png" />
+<link rel="icon" type="image/png" href="https://people.rit.edu/~am5318/645/project1/favicon-32x32.png" sizes="32x32" />
+<link rel="icon" type="image/png" href="https://people.rit.edu/~am5318/645/project1/favicon-16x16.png" sizes="16x16" />
+<meta name="application-name" content="Angelica Munyao"/>
+<meta name="msapplication-TileColor" content="#E7E3E1" />
+<meta name="msapplication-TileImage" content="https://people.rit.edu/~am5318/645/project1/mstile-144x144.png" />

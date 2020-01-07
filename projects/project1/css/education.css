@@ -1,0 +1,52 @@
+#current{
+  background-color: #2a51e8;
+  color: white;
+  box-sizing: border-box;
+  padding: 1rem 0;
+}
+.education{
+  margin-bottom: 4rem;
+  box-sizing: border-box;
+  border: solid black 0.5rem;
+  box-shadow: 0.25rem 0.25rem 0.5rem black;
+  background-color: #2dd417;
+}
+.education > p{
+  background-color: white;
+  color: black;
+  margin: 1rem 0.5rem;
+  box-sizing: border-box;
+  padding: 0.3rem;
+  border: solid black 0.2rem;
+}
+.location-graduation{
+  display: grid;
+  grid-template-columns: 33% 34% 33%;
+  box-sizing: border-box;
+}
+.location-graduation p{
+  box-sizing: border-box;
+  padding: 0.5rem;
+  margin: 0 0.5rem;;
+  border-bottom: solid black 0.2rem;
+  border-top: solid black 0.5rem;
+}
+.location-graduation p:nth-child(2){
+  border-left: solid black 0.5rem;
+  border-right: solid black 0.5rem;
+}
+@media screen and (max-width:600px){
+  .location-graduation{
+    grid-template-columns: 100%;
+    grid-auto-rows: auto;
+  }
+  .location-graduation p:first-child{
+    border-right: solid black 0.5rem;
+  }
+  .location-graduation p:nth-child(2){
+    border-left: solid black 0.2rem;
+    border-right: none;
+    border-bottom: none;
+    border-top: none;
+  }
+}

@@ -1,0 +1,28 @@
+
+#credits{
+  color: white;
+  background-color: #612525;
+  font-size: 1.3rem;
+  line-height: 2.5rem;
+  box-sizing: border-box;
+  padding: 2rem 1rem;
+  border: dotted #d52343 0.3rem;
+}
+#resource-list li{
+  list-style-type: none;
+  list-style-image: url("../media/button-purple.png");
+  margin: 0.25rem 0;
+}
+#resource-list a{
+  text-decoration: none;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  color: #2e0a9c;
+  background-color: #f0c299;
+  padding: 0.25rem;
+}
+#resource-list a:hover, #resource-list a:active{
+  color: #f0c299;
+  background-color: #2e0a9c;
+  padding: 0.25rem;
+}

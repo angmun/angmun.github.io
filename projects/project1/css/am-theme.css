@@ -1,0 +1,150 @@
+body{
+  background-color: #e7e3e1;
+  font-family: 'Nunito', sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  width: 100%;
+  margin: 0;
+}
+header{
+  position: relative;
+  width: 100%;
+  top: 0;
+  border-bottom: double black 1rem;
+  background-color: white;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-small{
+  position: fixed;
+  top: 0;
+  height: 100px;
+  z-index: 2;
+}
+.header-small #main-options{
+  font-size: 1.5rem;
+}
+#hamburger{
+  display: none;
+  cursor: pointer;
+}
+#main-options{
+  font-size: 2rem;
+  font-variant: small-caps;
+  font-weight: bolder;
+  text-align: left;
+}
+#main-options a{
+  margin-left: 2rem;
+  color: #2a51e8;
+  text-decoration: none;
+  border-top: double black 0.5rem;
+  border-bottom: solid black 0.25rem;
+  padding: 0.5rem;
+}
+#main-options a:hover, .selected-page:hover{
+  color: black;
+  background-color: #22c9d3;
+}
+#main-options a:active{
+  color: #22c9d3;
+  background-color: black;
+}
+.selected-page{
+  background-color: #E2DDDA;
+  border-left: solid black 0.25rem;
+  border-right: solid black 0.25rem;
+  cursor: default;
+  pointer-events: none;
+}
+main{
+  box-sizing: border-box;
+  padding: 2rem 2rem 4rem 2rem;
+  height: auto;
+}
+.content-stagger{
+  padding-top: 120px;
+}
+footer{
+  position: relative;
+  top: 100%;
+  left: 0px;
+  background-color: black;
+  color: white;
+  width: 100%;
+}
+.big-button a{
+  font-size: 1.5rem;
+  font-variant: small-caps;
+  box-sizing: border-box;
+  padding: 0.5rem;
+  text-decoration: none;
+  line-height: 3.5rem;
+  background-color: #2dd417;
+  color: black;
+  border-radius: 4px;
+}
+.big-button a:hover, .big-button a:active{
+  color: #22c9d3;
+  background-color: black;
+}
+.txt-center{
+  text-align: center;
+}
+.txt-left{
+  text-align: left;
+}
+.txt-right{
+  text-align: right;
+}
+.pad-it-1{
+  box-sizing: border-box;
+  padding: 1rem;
+}
+.bold-it{
+  font-weight: bold;
+}
+.no-margin{
+  margin: 0;
+}
+.show-block{
+  display: block !important;
+}
+
+@media screen and (max-width:750px){
+  header{
+    height: 100px;
+  }
+  header figure img{
+    background-image: url("../media/am-logo-72x72.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    width: 72px;
+  }
+  header #main-options{
+    font-size: 1.5rem;
+  }
+  #hamburger{
+    display: block;
+  }
+  #main-options{
+    display: none;
+    position: absolute;
+    top: 100px;
+    right: 0;
+    background-color: white;
+    box-sizing: border-box;
+    border-left: solid black 0.4rem;
+    border-bottom: solid black 0.4rem;
+  }
+  #main-options a{
+    display: block;
+    margin: 0.4rem;
+  }
+  main{
+      padding: 1.5rem 1rem 3rem 1rem;
+  }
+}

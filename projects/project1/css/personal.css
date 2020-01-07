@@ -1,0 +1,63 @@
+.row-flex-center{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-content: center;
+}
+.row-flex-center div{
+  align-self: center;
+}
+.row-flex-center p{
+  font-size: 1.3rem;
+  line-height: 2rem;
+  align-self: center;
+  max-width: 500px;
+}
+.divider{
+  margin: 4rem 0;
+  width: 100%;
+  box-sizing: border-box;
+  border: solid black 0.25rem;
+  box-shadow: 0.5rem 0.5rem 1rem black;
+}
+#poetic-intro{
+  box-sizing: border-box;
+  padding: 2.5rem 2rem;
+  line-height: 2rem;
+  margin: auto 2rem;
+}
+#signature{
+  margin: 1px auto;
+  text-align: right;
+}
+#drawing a{
+  background-color: #2dd417;
+  color: black;
+  text-decoration: none;
+  box-sizing: border-box;
+  border-radius: 2px;
+  padding: 1px 4px;
+  margin-bottom: 3px;
+}
+#drawing a:hover, #drawing a:active{
+  color: #22c9d3;
+  background-color: black;
+}
+#drawing figcaption, #designs figcaption{
+  padding-top: 0.5rem;
+}
+#creations div{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+#creations img{
+  margin: 0.5rem;
+  border: double black 0.5rem;
+}
+@media screen and (max-width: 500px) {
+  #poetic-intro{
+    margin: 0;
+    padding: 2rem 1rem;
+  }
+}

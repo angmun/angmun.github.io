@@ -1,0 +1,27 @@
+@media print{
+  header, footer, #resume-pdf{display: none;}
+  h1{font-size: 15pt; margin-bottom: 10pt;}
+  h2{font-size: 12pt;margin-bottom: 5pt;}
+  ul{margin: 5pt 0;}
+  body{font-size: 10pt;line-height: 13pt;background-color: white;}
+  main, #resume{padding: 0;margin: 0;border:none;box-shadow: none;}
+  #contact-info div{padding: 0;}
+  #top-contact, #top-link{
+    padding-top: 12pt !important;
+  }
+  #top-about p{margin: 5pt;}
+  #top-link a{text-decoration: none;color: black;}
+  #top-link a::after{
+    content: "\A" attr(href);
+    text-decoration: underline;
+    color:blue;
+  }
+  a{
+    color: blue !important;
+    background-color: white !important;
+    padding: 0 !important;
+}
+  .entry{padding: 0 3pt;
+  margin: 0 1pt;}
+  .pad-it-1{padding: 0 5pt;}
+}

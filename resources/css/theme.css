@@ -101,6 +101,7 @@ a:hover, a:active{
 }
 .page-sect h1{
   font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-variant: small-caps;
   font-size: 2.5rem;
   line-height: 3rem;
 }

@@ -29,6 +29,7 @@
 }
 body{
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  background-color: #d6fad1;
   font-size: 1.1rem;
   line-height: 2rem;
   position: relative;
@@ -56,7 +57,8 @@ a:hover, a:active{
   width: 126px;
   box-sizing: border-box;
   padding: 9px;
-  box-shadow: 2px 2px 4px #246782;
+  border-bottom: solid 0.5rem #000;
+  border-left: solid 0.2rem #000;
 }
 #contact-info a{
   position: absolute;
@@ -77,8 +79,8 @@ a:hover, a:active{
 /*Logo*/
 #site-logo{
   background-color: white;
-  border-radius: 0 0.5rem;
-  border: dashed black 0.25rem;
+  border-bottom: solid 0.5rem #000;
+  border-right: solid 0.2rem #000;
 }
 #logo-image{
   width: 200px;
@@ -94,7 +96,7 @@ a:hover, a:active{
   grid-template-columns: 50% 50%;
 }
 .page-sect{
-  margin: 1rem;
+  margin: 0.5rem;
   min-height: 300px;
 }
 .page-sect h1{
@@ -108,17 +110,20 @@ a:hover, a:active{
 .sect-1{
   background-color: #2a51e8;
   color: #fff;
-  border-radius: 0.5rem 0;
+  border: solid 0.2rem #000;
+}
+.sect-2{
+  background-color: #2dd517;
+  border: solid 0.5rem #000;
 }
 .sect-1 a{
   color: #fff;
 }
 .sect-1 a:hover, .sect-1 a:active{
-  color: #2dd517;
+  color: #000;
 }
-.sect-2{
-  background-color: #e2fbdc;
-  border-radius: 0 0.5rem;
+.sect-2 a:hover, .sect-2 a:active{
+  color: #fff;
 }
 @media screen and (max-width:700px){
   #content-cont{

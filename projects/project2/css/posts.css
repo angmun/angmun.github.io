@@ -8,6 +8,7 @@
   font-size: 2rem;
   background-color: white;
   padding: 0.5rem;
+  margin: auto;
 }
 .a-post p{
   background-color: white;
@@ -53,7 +54,7 @@
   padding: 0.25rem;
 }
 .stripes img{
-  margin: 1rem 0;
+  margin: 1rem 0.5rem;
 }
 .stripes figcaption{
   padding: 0.5rem;
@@ -70,7 +71,7 @@
   box-sizing: border-box;
   padding: 2.5rem 1rem;
 }
-#encourage{
+.width-limit{
   max-width: 600px;
 }
 .dotted-partition{
@@ -97,15 +98,21 @@
   box-sizing: border-box;
   padding: 0 1rem;
 }
+@media screen and (max-width:1000px){
+  #stitch-it{
+    width: 90%;
+    margin: 1rem auto;
+  }
+}
 @media screen and (max-width:600px){
   .a-post p{
     margin: 0.5rem;
-  }375
+  }
   .a-post figure{
     margin: 0.5rem;
   }
   .a-post img{
-    width: 100%;
+    width: 90%;
   }
   #wrap-dress{
     width: 90%;

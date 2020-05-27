@@ -28,16 +28,18 @@
   padding: 0;
 }
 body{
-  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-  background-color: #d6fad1;
+  font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "Tahoma", sans-serif;
+  background-color: #fdfaee;
   font-size: 1.1rem;
-  line-height: 2rem;
+  line-height: 1.6rem;
   position: relative;
   max-width: 100vw;
-    animation: 3s ease-out 0s 1 fadein;
+}
+main{
+  margin: 0 0.5rem 1rem 0.5rem;
 }
 a{
-  background-color: #2dd517;
+  background-color: #b0e034;
   box-sizing: border-box;
   padding: 0.3rem;
   border-radius: 0.3rem;
@@ -45,7 +47,8 @@ a{
 }
 a:hover, a:active{
   background-color: #000;
-  color: #22c9d3;
+  color: #519fc0;
+  transition: all ease-out 0.5s;
 }
 /*Contact Information*/
 #contact-info{
@@ -53,20 +56,23 @@ a:hover, a:active{
   right: 0px;
   top: 0px;
   z-index: 2;
-  background-color: #22c9d3;
+  background-color: #519fc0;
   height: 50px;
   width: 126px;
   box-sizing: border-box;
   padding: 9px;
-  border-bottom: solid 0.5rem #000;
-  border-left: solid 0.2rem #000;
+  box-shadow: 0 1px 2px #000;
 }
 #contact-info a{
   position: absolute;
   z-index: inherit;
 }
 .tiny-icons{
-  width:30px;
+  width: 30px;
+  transition: all ease-out 1s;
+}
+.tiny-icons:hover{
+  width: 34px;
 }
 #icon-email{
   left: 10px;
@@ -81,17 +87,17 @@ a:hover, a:active{
 #site-logo{
   position: relative;
   z-index: auto;
-  background-color: #fff;
-  border-bottom: solid 0.5rem #000;
-  border-right: solid 0.2rem #000;
+  background-color: #fdfaee;
   overflow: hidden;
-  animation: 2s ease-out 0s 1 expand;
+  animation: 2s ease-out 0s 1 show;
+  margin: 1rem;
+  box-shadow: 0 1px 2px #000;
 }
 #logo-image{
   width: 200px;
 }
 #name{
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   font-weight: 600;
   font-variant: small-caps;
   width: 300px;
@@ -107,78 +113,48 @@ a:hover, a:active{
 .page-sect{
   margin: 0.5rem;
   min-height: 300px;
+  box-shadow: 0 1px 2px #000;
+  transition: all ease-out 1s;
+}
+.page-sect:hover{
+  padding: 1.4rem;
+  margin: 0.1rem;
 }
 .page-sect h1{
-  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
   font-variant: small-caps;
-  font-size: 2.5rem;
-  line-height: 3rem;
+  font-size: 2rem;
+  line-height: 2.5rem;
 }
 .page-sect a{
   text-decoration:none;
 }
 .sect-1{
-  background-color: #2a51e8;
-  color: #fff;
-  border: solid 0.2rem #000;
+  background-color: #0b4f6c;
+  color: #fbf9ee;
 }
 .sect-2{
-  background-color: #2dd517;
-  border: solid 0.5rem #000;
+  background-color: #b0e034;
 }
 .sect-1 a{
-  color: #fff;
+  color: #fbf9ee;
 }
 .sect-1 a:hover, .sect-1 a:active{
   color: #000;
 }
 .sect-2 a:hover, .sect-2 a:active{
-  color: #fff;
-}
-.from-left{
-  animation: 2s ease-out 0s 1 leftin;
-}
-.from-right{
-  animation: 2s ease-out 0s 1 rightin;
+  color: #fbf9ee;
 }
 @media screen and (max-width:700px){
   #content-cont{
     grid-template-columns: 100%;
   }
 }
-@keyframes expand {
+@keyframes show {
   from{
-    width: 2%;
-    margin: 0 49%;
     opacity: 0;
+
   }
   to{
-    width:100%;
-    margin: 0;
     opacity: 1;
-  }
-}
-@keyframes fadein {
-  from{
-    background-color: #fff;
-  }
-  to{
-    background-color: #d6fad1;
-  }
-}
-@keyframes leftin {
-  from{
-    transform: translateX(-100%);
-  }
-  to{
-    transform: translateX(0%);
-  }
-}
-@keyframes rightin {
-  from{
-    transform: translateX(100%);
-  }
-  to{
-    transform: translateX(0%);
   }
 }

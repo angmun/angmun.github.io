@@ -120,6 +120,11 @@ h3 {
 	box-sizing: border-box;
 	display: inline-block;
 }
+.sticky-note img{
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+}
 .polaroid {
 	background-color: white;
 	margin: 1rem;

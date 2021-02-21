@@ -12,5 +12,8 @@ At the moment, the website utilizes HTML and CSS (projects themselves include so
  - [ ] Include navigation for convenient access to site sections
  - [ ] Update projects to include skill tags and improve summaries
  - [ ] Improve upon existing projects
+    - [ ] Jipoteze
+    - [ ] You Can DIYit
+    - [ ] Resume Website
  - [ ] Confirm accessibility and responsiveness
  - [ ] Plan for continued development of content
